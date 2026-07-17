@@ -319,12 +319,7 @@ body.theme-dark .btn-outline-dark {
   justify-content: center;
   padding: 0.9rem;
 }
-.about-cta-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
+
 
 /* ------------------------------------------
    5. NAVBAR
@@ -596,6 +591,16 @@ body.theme-dark .hero {
   margin-bottom: 2.5rem;
 }
 
+.about-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.about-cta-group .bi-download {
+  color: var(--clr-primary);
+}
 /* Stat pills */
 .hero-stats {
   display: flex;
